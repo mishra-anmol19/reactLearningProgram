@@ -1,0 +1,19 @@
+{
+  "presets":[
+    [
+    "@bables/preset-env",
+      {
+        "targets": {
+          "esmodules": true
+        }
+      }
+    ],
+
+    [
+      "@bables/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ]
+  ]
+}
