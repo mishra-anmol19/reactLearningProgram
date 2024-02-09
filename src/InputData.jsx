@@ -3,40 +3,40 @@ import './inputData.css'
 
 function InputData(){
   const [inputarr, setInputarr] = useState([])
-  const [inputdata, setInputdata] = useState({name:"", rollNo:""})
+  const [inputdata, setInputdata] = useState({firstName:"", lastName:""})
   
   function changehandle(e){
     setInputdata({...inputdata,[e.target.name]:e.target.value})
   }
   
-  let {name, rollNo} = inputdata; 
+  let {firstName, lastName} = inputdata; 
   function changhandle(){
-    setInputarr([...inputarr, {name, rollNo}])
+    setInputarr([...inputarr, {firstName, lastName}])
     console.log(inputarr)
     console.log(inputdata)
-    setInputdata({name:"", rollNo:""})
+    setInputdata({firstName:"", lastName:""})
   }
 
   return <>
     <div className="App">
-      <input type="text" autoComplete="off" name='name' value={inputdata.name} onChange={changehandle} placeholder=" Enter Name"/>
-      <input type="text" autoComplete="off" name='rollNo' value={inputdata.rollNo} onChange={changehandle} placeholder=" Enter Roll No"/>
-      <button onClick={changhandle}>Add It</button>
+      <div className="inputWrapper">
+        <input type="text" autoComplete="off" name='firstName' value={inputdata.firstName} onChange={changehandle} placeholder=" Enter First Name"/>
+        <input type="text" autoComplete="off" name='lastName' value={inputdata.lastName} onChange={changehandle} placeholder=" Enter Last Name"/>
+        <button onClick={changhandle}>Add It</button>
+      </div>
 
 
-      <table border={1} width="100%" cellPadding={10} border-collapse="collapse">
+      <table className="dataTable" border={1} width="50%" cellPadding={10} border-collapse="collapse">
         <tbody>
           <tr>
-            <td>Name</td>
-            <td>Roll No</td>
+            <td className="tdHadding">Full Name</td>
           </tr>
           {
             inputarr.map(
               (info, ind)=>{
                 return(
                   <tr key={ind}>
-                    <td>{info.name}</td>
-                    <td>{info.rollNo}</td>
+                    <td className="tdData">{info.firstName} {info.lastName}</td>
                   </tr>
                 )
               }

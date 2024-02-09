@@ -15,11 +15,27 @@ input:focus-within{
 table, th, td {
   border-collapse: collapse;
 }
-.App{
+
+.inputWrapper{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+}
+.dataTable{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.tdHadding{
+  background-color: #AB47BC;
+  color: white;
+  font-weight: 800;
+}
+.tdData{
+  background-color: #b293b7;
+  color: white;
+  font-weight: 800;
 }
 button{
   width: auto;
