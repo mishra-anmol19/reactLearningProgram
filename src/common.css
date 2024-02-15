@@ -1,0 +1,193 @@
+
+input{
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+input:focus{
+  text-decoration: none;
+}
+input:focus-within{
+  border: 2px solid aqua;
+} 
+table, th, td {
+  border-collapse: collapse;
+}
+
+.app {
+  border: 1px solid red;
+  background-image: linear-gradient(45deg, #F48FB1, #FFE082);
+  box-shadow: 7px 6px 1px 1px #BDBDBD;
+  height: 80vh;
+  overflow: auto;
+  padding: 10px;
+}
+
+.addButton{
+  width: auto;
+  padding: 10px 30px;
+  box-shadow: 0px 0px 10px rgba(67, 65, 65, .4);
+  margin: 10px;
+  border: 2px solid white;
+  font-size: 1.2rem;
+  border-radius: 200px;
+  cursor: pointer;
+  background-color: green;
+}
+.addButton:active{
+  color: red;
+  background-color: antiquewhite;
+}
+.addForm{
+  text-align: center;
+}
+.mainDiv {
+  display: flex;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.itemDivWrapper {
+  width: 200px;
+  text-align: center;
+  border: 1px solid;
+  margin: 10px 10px 0px 0px;
+  background-color: azure;
+}
+.itemDiv,.priceDiv,.desDiv{
+    padding: 10px;
+}
+.itemDiv {
+  font-size: 18px;
+  font-weight: 600;
+  background: #aec3d5;
+}
+.priceDiv{
+font-size: 16px;
+font-weight: 800;
+}
+.desDiv {
+  font-size: 14px;
+  height: 35px;
+}
+.deleteButton {
+  color: white;
+  background-color: #d31d1dd6;
+  border: navajowhite;
+  margin-bottom: 10px;
+  padding: 6px;
+  border-radius: 11px;
+  width: 40%;
+  box-shadow: 1px 0px 9px 1px gray;
+  cursor: pointer;
+}
+.deleteButton:active{
+  background-color: rgb(16, 158, 16);
+  color: black;
+}
+.buttonWrapper{
+  display: flex;
+  justify-content: center;
+}
+.additemBtn,.showitemBtn{
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.clickAdditemBtn{
+  background-color: #31bfbf;
+  border: 1px solid black;
+  box-shadow: 4px 3px 1px gray;
+}
+.fetchDataMainWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: auto;
+  position: relative;
+}
+.fetchDataWrapper {
+  width: 20%;
+  height: 315px;
+  border: 1px solid black;
+  margin: 13px;
+  padding: 10px;
+  box-shadow: 0px 1px 8px 2px #9b8a8a;
+}
+.getImage {
+  width: 44%;
+  display: block;
+  margin: auto;
+  height: 75%;
+}
+.imageDiv {
+  height: 55%;
+  margin-top: 16px;
+}
+.titleDiv {
+  text-align: center;
+  height: 51px;
+}
+.fetchPriceDiv {
+  text-align: center;
+  font-weight: 800;
+  background-color: aquamarine;
+  margin-top: 3%;
+  padding: 10px;
+}
+.addCartButton {
+  width: 90px;
+  border: navajowhite;
+  background-color: #00800085;
+  height: 30px;
+  margin-top: 1px;
+  cursor: pointer;
+  font-weight: 800;
+}
+.addCartButton:active{
+  color: white;
+  background-color: rgb(174, 236, 57);
+}
+.addCart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+.itemcount{
+  border: 1px solid 00ffe5;
+  padding: 9px 40px;
+  font-size: 20px;
+  background-color: #00ffe5;
+
+  border-radius: 54px;
+  width: 5%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.addItemTxt{
+  font-weight: bold;
+  font-size: 16px;
+}
+.noteText {
+  font-weight: bold;
+  font-size: 16px;
+  color: red;
+  margin: 14px;
+  text-align: center;
+}
+.cartwrapper{
+  height: 80px;
+  margin-top: 15px;
+}
+.additemBtnClick,.showitemBtnClick{
+  box-shadow: 6px 5px 1px 1px #a99494;
+  background-color: aliceblue;
+  font-weight: 400;
+}
+

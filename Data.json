@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Calvin Klein",
+    "price": 3000,
+    "description" : "Unisex One Eau De Toilette 100ml"
+  },
+  {
+    "id": 2,
+    "name": "Bella Vita Organic",
+    "price": 560,
+    "description" : "OUD Parfum 100 ml"
+  },
+  {
+    "id": 3,
+    "name": "Marks & Spencer",
+    "price": 1299,
+    "description" : "Discover Intense Sea Salt & Neroli Eau De Toilette - 100ml"
+  },
+  {
+    "id": 4,
+    "name": "Chopard",
+    "price": 9200,
+    "description" : "Musk Malaki Eau de Parfum 80 ml"
+  },
+  {
+    "id": 5,
+    "name": "RIIFFS Parfums",
+    "price": 789,
+    "description" : "Bella Rouge Perfumes"
+  },
+  {
+    "id": 6,
+    "name": "RIIFFS Parfums",
+    "price": 789,
+    "description" : "Bella Rouge Perfumes"
+  },
+  {
+    "id": 7,
+    "name": "PERFUMERS CLUB",
+    "price": 908,
+    "description" : "Best Fragrance Set for Unisex Aquatic & Citrus Eau De Parfums"
+  }
+]

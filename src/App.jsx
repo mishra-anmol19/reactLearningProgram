@@ -1,10 +1,12 @@
 import Hello from "./Hello";
-import InputData from "./InputData";
+import Table from "./Table";
+import './common.css'
+import MainButtonComponent from "./MainButtonComponent";
 
 function App() {
   return <>
-  <Hello></Hello>
-  <InputData></InputData>
+    <Hello />
+    <MainButtonComponent />
   </>
 }
 export default App;
